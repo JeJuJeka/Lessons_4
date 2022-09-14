@@ -1,0 +1,166 @@
+/* -----------Шрифти----------- */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Larsseit */
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2")format("woff2"), url("../fonts/Larsseit-Medium.woff")format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Loto */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* ------Обнуление---- */
+*,
+*::before *::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+textarea {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+body {
+	line-height: 1;
+}
+
+/* -------- */
+.textone p,
+ul {
+	color: purple;
+	font-family: 'Roboto';
+	font-style: italic;
+}
+
+.textone h3 {
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: blue;
+}
+
+.one {
+	font-family: 'Roboto';
+	font-weight: 700;
+	color: green;
+}
+
+.texttwo p {
+	font-family: "Lato";
+	font-weight: 700;
+	color: rgb(210, 30, 60);
+}
+
+.textol {
+	font-family: "Lato";
+	font-weight: 400;
+	color: chocolate;
+}
+
+.two {
+	font-family: "Lato";
+	font-weight: 900;
+	color: green;
+}
+
+.textlarsseit {
+	font-family: "Larsseit";
+	font-weight: 400;
+	color: blueviolet;
+}
+
+.larsseitmid {
+	font-family: "Larsseit";
+	font-weight: 500;
+	color: coral;
+}
+
+header {
+	font-family: "Larsseit";
+	font-weight: 700;
+	color: slateblue;
+}
